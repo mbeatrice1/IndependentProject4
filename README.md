@@ -1,1 +1,5 @@
-# Independent project4
+# Independent Project4
+
+# Author
+
+Beatrice Uwamahoro
