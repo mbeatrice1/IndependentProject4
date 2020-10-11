@@ -26,7 +26,7 @@
         </div>
         <div class="form-group col-md-8">
           <label for="pizza">Pizza size</label>
-          <select class="form-control pizza" required >
+          <select class="form-control pizza" id="pizza" required >
               <option>Small</option>
               <option>Medium</option>
               <option>Large</option>
@@ -35,32 +35,32 @@
         </div>
         <div class="form-group col-md-8">
             <label for="tp">Toppings</label>
-            <select class="form-control tp" required >
-                <option>Green pepper</option>
-                <option>Red chill</option>
-                <option>Spinach</option>
+            <select class="form-control tp" id="tp" required >
+                <option>Green pepper @1000</option>
+                <option>Red chill @2000</option>
+                <option>Spinach@3000</option>
             </select>
             
           </div>
           <div class="form-group col-md-8">
             <label for=" cs">Crust</label>
-            <select class="form-control cs" required >
-                <option>Mushrooms</option>
-                <option>Onions</option>
-                <option>Vegetables</option>
+            <select class="form-control cs" id="cs" required >
+                <option>Mushrooms @4000</option>
+                <option>Onions @5000</option>
+                <option>Vegetables @5000 </option>
             </select>
             
           </div>
           <div class="form-group col-md-8">
             <label for="dv">Delivery</label>
-            <select class="form-control dv" required >
-                <option>Yes</option>
+            <select class="form-control dv " id="dv" required >
+                <option class="f" onclick="delivery()">Yes</option>
                 <option>No</option>
             
             </select>
             
         </div>
-        <button type="button" class="btn btn-success col-md-8">Checkout</button>
+        <button type="submit" class="btn btn-success col-md-8" onclick="calctotalPrice()">Checkout</button>
         
       </form>
        
