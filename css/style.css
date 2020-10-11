@@ -1,3 +1,13 @@
+body{
+
+    font-style: italic;
+  font-size: 22px;
+  background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg");
+  font-weight: bolder;
+
+}
+
+
 .bc{
 
     background-image: url("https://nine9.com/wp-content/uploads/2017/06/people-eating-pizza.jpg");
@@ -9,4 +19,19 @@
     padding-left: 45px;
 
 
+}
+.d-flex{
+box-sizing: border-box;
+box-shadow: gray;
+justify-content: space-between;
+
+
+}
+.part2{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+
+
+    
 }
