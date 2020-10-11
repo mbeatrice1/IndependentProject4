@@ -1,0 +1,15 @@
+body{
+
+    font-size: 30px;
+    background-color: black;
+   
+
+}
+
+#place{
+   text-align: center; 
+   color: rgb(197, 66, 19);
+   font-weight: bolder;
+   font-style: italic;
+   
+}
