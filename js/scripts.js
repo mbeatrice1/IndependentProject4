@@ -19,16 +19,16 @@ function getCrust() {
     return parseInt(c);
 }
 function getDelivery() {
-    //var d = document.getElementById("dv").value;
-    //return d;
-    alert("The delivery  charge of 2000 will be added to your bill");
+    var d = document.getElementById("dv").value;
+    return d;
+    //alert("The delivery  charge of 2000 will be added to your bill");
 }
 function calctotalPrice(e) {
-    //.preventDefault();
+    //preventDefault();
     //var totalPrice = (getCrust() + getToppping());
     
-        //console.log(totalPrice);
-   // alert("Your order of " + si + " is completed.Your total amount you are requested to pay" + totalPrice +"." )//
+       // console.log(totalPrice);
+   alert("Hello Your order of  is completed.Your total amount you are requested to pay is." )//
 alert("Thank you")
 }
 
