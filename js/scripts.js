@@ -1,4 +1,5 @@
  
+
 function getName() {
     var nam = document.getElementById("na").value;
     return parseInt(nam);
@@ -27,8 +28,13 @@ function calctotalPrice(e) {
     //preventDefault();
     //var totalPrice = (getCrust() + getToppping());
     
-       // console.log(totalPrice);
-   alert("Hello Your order of  is completed.Your total amount you are requested to pay is." )//
-alert("Thank you")
+        //console.log(totalPrice);
+      
+  alert("Hello Your order of  is completed.Your total amount you are requested to pay is." )
+  alert(nam + si +top +c +d)
+//alert("Thank you") t
 }
+
+
+
 
